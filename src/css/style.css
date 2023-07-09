@@ -1,0 +1,95 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+	background-color: hsl(0, 0%, 0%);
+	color: #ffffff;
+}
+
+body::before{
+    content: "";
+    background-image: url(../img/desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.1;
+}
+
+header {
+    height: 80px;
+    display: flex;
+	justify-content: center;
+}
+
+.nome-hogwarts {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-style: bold;
+    padding: 25px;
+}
+
+.selecione-casas {
+    display: flex;
+	align-items: center;
+	gap: 20px;
+    min-height: calc(100vh - 80px);
+    justify-content: center;
+}
+
+.titulo-selecione{
+    font-size: 23px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+	border-bottom: 2px solid #47f4ff;
+	width: 100%;
+	text-align: center;
+}
+.casas  {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 400px;
+	gap: 25px;
+}
+
+.lista-casas {
+    display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.lista-casas .casa img{
+    width: 150px;
+}
+
+.casa.selecionada {
+	box-shadow: 0px 0px 15px 2px #e4eaf1;
+}
+
+.descricao-casa{
+    text-align: center;
+    max-height: 530px;
+    max-width: 650px;
+}
+
+.descricao-casa img {
+    width: 270px;
+    margin-bottom: 15px;
+}
+
+.nome-casa {
+    border-bottom: 2px solid #47f4ff;
+    letter-spacing: 4px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.descricao {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+}
