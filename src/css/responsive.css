@@ -18,7 +18,7 @@
         margin: 0 auto;
     }
 
-    .casas {
+    .selecione-casas .casas {
         margin-top: 80px;
     }
 
@@ -26,7 +26,7 @@
         width: 180px;
     }
 
-    .descricao{
+    .descricao-casa .descricao{
         font-size: 15px;
     }
 }
