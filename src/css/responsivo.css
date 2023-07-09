@@ -1,0 +1,32 @@
+@media (max-width: 1000px){
+    
+    header{
+        height: 100px;
+    }
+    
+    .nome-hogwarts {
+        font-size: 20px;
+        font-style: bold;
+        justify-content: center;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .selecione-casas{
+        flex-direction: column-reverse;
+        max-width: 430px;
+        margin: 0 auto;
+    }
+
+    .selecione-casas .casas {
+        margin-top: 80px;
+    }
+
+    .lista-casas .casa img{
+        width: 180px;
+    }
+
+    .descricao-casa .descricao{
+        font-size: 15px;
+    }
+}
